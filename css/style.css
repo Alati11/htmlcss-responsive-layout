@@ -105,6 +105,12 @@ a {
     display: flex;
     gap: 22px;
     align-items: center;
+    color: #FFFFFF;
+}
+
+/* main-style*/
+.bg-color {
+    background-color: var(--light-blue);
 }
 
 /* debug */
