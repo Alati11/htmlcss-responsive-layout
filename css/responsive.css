@@ -1,17 +1,23 @@
 /************************************************
     Tablet
  ************************************************/
- @media (max-width: 1160px) {
+ @media (max-width: 769px) {
 	.container {
 		width: 100%;
 	}
+    .navbar-list {
+        display: none;
+    }
+    .navbar__menu {
+        display: inline-block;
+    }
 }
 
 
 /************************************************
     Mobile
  ************************************************/
- @media (max-width: 575px) {
+ @media (max-width: 480px) {
 	.row {
 		flex-wrap: wrap;
 		gap: 4.5rem;
