@@ -112,6 +112,14 @@ a {
 .bg-color {
     background-color: var(--light-blue);
 }
+.button-hero     {
+    color: var(--light);
+    line-height: 40px;
+    text-align: center;
+    background-color: var(--blue);
+    border-radius: 20px;
+    padding: 0 18px;
+}
 
 /* debug */
 
