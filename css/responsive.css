@@ -11,6 +11,13 @@
     .navbar__menu {
         display: inline-block;
     }
+    .reverse {
+        flex-direction: column;
+        order: 1;
+        
+
+    }
+
 }
 
 
