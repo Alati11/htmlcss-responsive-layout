@@ -201,12 +201,12 @@ a {
     
     align-items: flex-end;
 }
-.card.card-feature {
+/* .card.card-feature {
     background-color: white;
     padding: 15px;
     text-align: center;
     align-self: flex-end;
-} 
+}  */
 
 /* .card {
     text-align: center;
@@ -230,26 +230,36 @@ a {
 
 .planning1-img {
     margin-bottom: 80px;
+    
 }
 .card__title {
     font-size: 35px;
     margin-bottom: 30px;
 }
-.card.card-planning {
-    color:white;
+.card-bg-planning {
+    border-radius: 20px;
+    background-color: white;
+    align-items: center;
 }
 .title__planning2 {
     font-size:25px;
     margin-bottom: 20px;
+    text-align: center  ;
 }
 .card__description {
     line-height: 1.8em;
 }
-.fa-arrow-down {
-    color: black;
-    size: 15px;
+.description__planning2 {
+    line-height: 2.8em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.arrow {
+    text-align: center;
+    color: black;
+    size: 30px;
+}
 /* .planning2_img { 
     background-color: white;
 
