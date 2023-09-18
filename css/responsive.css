@@ -26,7 +26,11 @@
 
 	.card-feature .card__featured-image img {
 		margin-left: 0;
+        padding-top: 160px;
 	}
+    .card__featured-image {
+        padding-top: 30px;
+    }
 }
 
 
