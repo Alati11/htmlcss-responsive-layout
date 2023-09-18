@@ -56,7 +56,7 @@ a {
     max-width: 880px;
     margin: 0 auto;
 }
-.lanning-bg-purple{
+.planning-bg-purple{
     background-color: #9792E4;
 }
 
@@ -90,7 +90,6 @@ a {
 .align-items-center {
     align-items: center;
 }
-
 
 /* component classes */
 
@@ -135,6 +134,11 @@ a {
 [class^='col'] > .card {
 	height: 100%;
 }
+[class^="col"] {
+   
+    padding: 10px;
+}
+
 
 .card-feature.card--landscape {
 	display: flex;
@@ -192,9 +196,11 @@ a {
 	margin: 0 auto;
     
 }
+
 .card__featured-image {
     
-    align-items: flex-end;}
+    align-items: flex-end;
+}
 
 /* .card {
     text-align: center;
@@ -213,23 +219,32 @@ a {
 } */
 
 
+
+/* Section Planning */
+/* .planning2_img { 
+    background-color: white;
+
+.card-content. .bg-color-white {
+    background-color: white;
+}
+
 /* debug */
 
-.debug .container,
+/* .debug .container,
  .debug .container-medium,
  .debug .container-small  {
     border: 1px solid var(--yellow);
     padding: 10px;
-}
+} */
 
-.debug .row {
+/* .debug .row {
     border: 1px solid var(--purple);
     padding: 10px;
-}
-.debug [class^="col"] {
+} */
+/* .debug [class^="col"] {
     border: 1px solid orange;
     padding: 10px;
-}
+} */
 
 
 
