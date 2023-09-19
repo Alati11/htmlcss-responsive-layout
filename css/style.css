@@ -244,13 +244,13 @@ a {
 .title__planning2 {
     font-size:25px;
     margin-bottom: 20px;
-    text-align: center  ;
+    text-align: center;
 }
 .card__description {
     line-height: 1.8em;
 }
 .description__planning2 {
-    line-height: 2.8em;
+    
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

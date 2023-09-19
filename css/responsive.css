@@ -33,6 +33,7 @@
         padding-top: 30px;
     }
    
+    
 }
 
 
@@ -40,7 +41,7 @@
 /************************************************
     Tablet
  ************************************************/
- @media (MIN-width: 992px) {
+ @media (min-width: 992px) {
 	.menu-toggle {
 		display: none;
 	}
@@ -48,12 +49,13 @@
     .navbar-list {
         display: flex;
     }
-    /* .navbar__ {
-        display: inline-block;
-    } */
-   
-    .card .card-bg-planning {
+
+    .card-feature.card--landscape {
 		flex-wrap: nowrap;
 	}
-
+    
+    .card-feature.card--landscape > * {
+		width: 50%;
+	}
+   
  }  
